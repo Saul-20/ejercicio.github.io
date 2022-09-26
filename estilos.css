@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-image: url(disparo.png);
+    background-position: 250% top;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 250px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul li{
+    margin: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    font-size: 18px;
+    color: #848d9f;
+    text-decoration: none;
+}
+
+.Guatemala{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.sign-up{
+    font-weight: bold;
+    color: #000;
+}
+
+.login{
+    color: #fff;
+    padding: 15px 35px;
+    background-color: #3fa49f;
+    border-radius: 40px;
+}
+
+h1{
+    margin: 0 0 80px 70px;
+    font-size: 100px;
+}
+
+p{
+    width: 600px;
+    margin-left: 70px;
+    padding-bottom: 100px;
+    color: #848d9f;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.links{
+    margin-left: 100px;
+    display: flex;
+}
+
+.links li{
+    padding: 0 50px 0 50px;
+    list-style: none;
+}
+
+.links li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.link{
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #3fa49f;
+    border-radius: 30px;
+}
+
+.link2{
+    color: #000;
+    font-weight: bold;
+}
+
+.container{
+    margin: 200px 0 0 80px;
+    display: flex;
+}
+
+.container-number{
+    margin: 0 50px 0 50px;
+}
+
+.container-number h2{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.container-number h3{
+    color: #848d9f;
+    padding-bottom: 150px;
+}
